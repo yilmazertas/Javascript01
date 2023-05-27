@@ -1,7 +1,7 @@
 let x,y,z;
 x=5;
 y=6;
-z=x+z;
+z=x*y;
 documant.getElementById("demo").innerHTML="bu bir durumdur";
 
 function myFunction() {

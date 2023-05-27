@@ -31,7 +31,7 @@
 
 // let answer='Its your "class" time'
 
-// let x =123e-5
+// let x =123e-6
 // console.log(x)
 
 

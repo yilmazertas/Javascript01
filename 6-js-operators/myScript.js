@@ -53,13 +53,13 @@
 // console.log(text3)
 
 // let text1="ne  güzel"
-//   text1+="bir gün"
+//   text1+="bir gün olacak"
 // console.log(text1)
 
-// let x="5" +3;
+// let x="598" +3;
 // console.log(x)
 
-// let z= "Hello" +5 
+// let z= "Hello"  +5
 // console.log(z)
 
 

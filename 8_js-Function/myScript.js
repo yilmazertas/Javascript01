@@ -1,5 +1,5 @@
 // function myFunction(parameter1,parameter2) {
-    // buradaki alanda myFuncsion çalişir 
+//     // buradaki alanda myFuncsion çalişir 
 // }
 
 // myFunction(argument1,argument2)
@@ -33,14 +33,16 @@
 // }
 
 // console.log(toCelsius(134))
+
 // let x=toCelsius(134)
 // let text="hava sıcaklığı" + x +   "celsius"
 // console.log(text)
 
-// function myFuncsion() {
-//     let carName="volvo"
-//     // burada carName kullanılabilir
-// }
+
+function myFuncsion() {
+    let carName="volvo"
+    // burada carName kullanılabilir
+}
 // //  burad kullanılamaz 
 
 
@@ -63,4 +65,10 @@
 //     return  x1*x2
 
 // }
-// console.log(myFuncsion(4,3))
+// console.log(myFuncsion(3,4))
+
+function myFuncsion(x1,x2){
+    return  x1**3-x2**2
+
+}
+console.log(myFuncsion(3,4))

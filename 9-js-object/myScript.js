@@ -11,22 +11,26 @@
 // console.log(person.eyeColor)
 // console.log(person["lastName"])
 
-const person ={
-    firstName:"mustaf",
-    lastName:"yılmaz",
-    fullName: function myFuncsion(){
-        return this.firstName+""+
-            this.lastName
+// const person ={
+//     firstName:"mustaf",
+//     lastName:"yılmaz",
+//     fullName: function myFuncsion(){
+//         return this.firstName+""+
+//             this.lastName
         
-    }
-}
+//     }
+// }
 
-let name=person.fullName()
-console.log(name)
+// console.log(person.fullName())
+
+// let name=person.fullName()
+// console.log(name)
 
 // gösterimler 
 // fullname:function()
 // myFunction()
+
+// new ile başlayan her bir gösteim objectrir
 
 // x=new Date()
 // y=new String("mustafa");

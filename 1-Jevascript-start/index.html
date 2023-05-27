@@ -7,14 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-   <p id="demo">HTML içeriği değiştirilebilir</p> 
-   <button type="button"  onclick="document.getElementById ('demo').innerHTML='Hello javascript'">Onclic</button>
-    <p>html özelikleri değiştirebilir</p>
-    <button onclick="document.getElementById('myImage').src='akşam.jpg.jpeg'"> Akşam</button>
-    <img id="myImage" src="sabah.png"style="width:100px; height:70px">
-    <button onclick="document.getElementById('myImage').src='sabah.png.jpeg'">Sabah</button>
+   <p id='demo'>HTML içeriği değiştirilebilir</p> 
+   <button type="button"  onclick="document.getElementById ('demo').innerHTML='Hello javascript'">Onclick</button>
 
-    <p id="stil">HTML stil özeliklerini değiştirir</p>
+    <p>html özelikleri değiştirebilir</p>
+    <button onclick="document.getElementById('myImage').src='sabah.jpeg'"> Sabah</button>
+    <img id="myImage" src="sabah.jpeg"style="width:100px; height:70px">
+
+    <button onclick="document.getElementById('myImage').src='Akşam.jpg'">Akşam</button>
+
+    <p id='stil'l>HTML stil özeliklerini değiştirir</p>
+    
     <button type="button" onclick="document.getElementById('stil').style.fontSize='35px'">click me</button><br><br>
 
     <button type="button" onclick="document.getElementById('element'). style.display='block'">Göster</button>
